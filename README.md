@@ -1,6 +1,6 @@
 # Mathematica C/C++ Programming Interface Tutorial
 
-- [WSTP](WSTP/README.md)
+- [WSTP(Wolfram Symbolic Transfer Protocol)](WSTP/README.md)
 
 - [LibraryLink](LibraryLink/README.md)
 
