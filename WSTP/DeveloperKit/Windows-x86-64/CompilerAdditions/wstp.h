@@ -737,7 +737,7 @@
  */
 /* used by kernel and FE */
 #define MLMessageHandlerObject  WSMessageHandlerObject
-#define mlint64  wsint64
+// #define mlint64  wsint64
 #define mlextended_double wsextended_double
 
 /* 
