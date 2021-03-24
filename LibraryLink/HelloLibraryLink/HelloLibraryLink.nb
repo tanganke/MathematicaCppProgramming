@@ -1,0 +1,18 @@
+In[1]:=
+?LibraryFunctionLoad
+Out[1]=  Symbol	
+LibraryFunctionLoad[lib,fun,argtype,rettype] loads Wolfram Library lib and makes the library function fun available in the Wolfram Language.	
+	\[SpanFromLeft]
+
+
+addOne=LibraryFunctionLoad[
+NotebookDirectory[]<>"/build/libmylib.so"(* you need to modify this path on Windows system *),
+"add_one"(* function name *),{Real} (* argument types *),Real (* return type *)
+]
+Out[6]= LibraryFunction[Function name: add_one
+Argument count: 1
+
+]
+In[7]:= addOne[1]
+Out[7]= 2.
+In[9]:= LibraryFunctionUnload[addOne]
